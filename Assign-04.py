@@ -10,15 +10,17 @@ def main():
     )
 
     sum = 0
+    sum2 = 0
 
     for counter in range(1000):
         if counter % 3 == 0:
             sum = sum + counter
             print(counter)
         if counter % 5 == 0:
-            sum = sum + counter
+            sum2 = sum2 + counter
             print(counter)
-    print(sum)
+    print(f" sum of multiples of 3: {sum}")
+    print(f" sum of multiples of 5: {sum2}")
 
 
 if __name__ == "__main__":
